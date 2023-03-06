@@ -1,0 +1,56 @@
+/* * {
+    margin: 1%;
+    padding: 0%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: black;
+} */
+
+body {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.body .text {
+    width: 60%;
+}
+
+.Image img {
+    padding-top: 5%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.text {
+    padding: 40px 10px;
+    font-size: medium;
+}
+
+.side_image {
+    /* display: flex; */
+    flex-direction: column;
+    padding: 30px 30px;
+    gap: 20px;
+}
+
+.text3 {
+    margin: 5% 20% 0% 3%;
+    width: 80%;
+}
+
+.product-btn-group {
+    font-size: medium;
+}
+
+.body .text .counter span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #28292b;
+    user-select: none;
+}

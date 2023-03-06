@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Image.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="myscript.js"></script>
+</head>
+
+<body>
+    <divclass="pgl" style="display: flex;">
+        <div class="imgbar" style="margin: 5% 0% 5% 87px; width: 100px; height: 50px;">
+            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="Images/Image3.jpg" alt="" width="70" height="70">
+
+            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="Images/Image3_2.jpg" alt="" width="70" height="70">
+
+            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="Images/Image3_3.jpg" alt="" width="70" height="70">
+            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="Images/Image3_4.jpg" alt="" width="70" height="70">
+
+        </div>
+
+        <div class="Image" style="padding-top: 2%;">
+            <img src="Images/Image3.jpg">
+        </div>
+        <div class="text3">
+            <div class="subtext">
+                <span style="font-weight: bolder; font-size: x-large;"> Redmi Note 12 5G Mystique Blue 4GB RAM 128GB ROM | 1st Phone with 120Hz Super AMOLED and Snapdragon® 4 Gen </span>
+                <h2>About this Item</h2>
+                <ul>
+                    <li>Display: Super AMOLED (1080x2400) Display with 120Hz Refresh rate; </li>
+                    <li>Camera: 48MP AI Triple camera setup with 8MP Ultra Wide sensor and 2MP Macro camera| 13MP Front camera </li>
+                    <li>Battery: 5000mAh large battery with 33W fast charger in-box and Type-C connectivity </li>
+                    <li>Memory, Storage & SIM: 4GB RAM | 128GB UFS 2.2 storage expandable up to 1TB | Dual SIM (nano+nano) Dual 5G (5G+5G) </li>
+                </ul>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+                <hr>
+            </div>
+            <div class="product-btn-group">
+                <button class="btn minus-btn disabled" type="button"
+                    onclick="quantityOfItemDec()">-</button>
+                <input type="text" name="numberOfitem" id="quantity"
+                    value="1">
+                <button class="btn plus-btn" type="button"
+                    onclick="quantityOfItemInc()">+</button>
+                <button class="normal" onClick="myfunction()"
+                    location.href='billing.html'>Add to Cart </button>
+            </div>
+
+
+        </div>
+
+    </div>
+<script src="myscript.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Billing.css">
+    <script src="Billing.js"></script>
+</head>
+
+<body>
+    <div class="box">
+
+        <div class="form">
+            <form action="" method="post" name="address" id="form1" onsubmit="return validateForm()">
+
+                <fieldset class="fieldset">
+
+                    <div class="box1">
+                        <label for="fname">First Name</label>
+                        <input required type="text" id="fname" name="fname">
+                    </div>
+
+                    <div class="box1">
+                        <label for="lname">Last Name</label>
+                        <input required type="text" id="lname" name="lname">
+                    </div>
+                   
+
+
+
+                    <div class="box1">
+                        <label for="address">Street address</label>
+                        <input required type="text" id="street" name="address">
+
+                    </div>
+                    <div class="box1">
+                        <label for="postal">PIN Code</label>
+                        <input required type="text" id="postal" name="postal">
+                    </div>
+                    <div class="box1">
+                        <label for="city">City</label>
+                        <input required type="text" id="city" name="city">
+                    </div>
+                    <div class="box1">
+                        <label for="country">Country or region</label>
+                        <input id="country" name="country" required>
+                </fieldset>
+
+                <input type="checkbox" id="check" name="check" onclick="copyAddress()">
+                <label for="check" class="check"> Same as Shipping Address</label>
+
+                <fieldset class="fieldset">
+                    <div class="box1">
+                        <label for="fbname">First Name</label>
+                        <input required type="text" id="fbname" name="fbname">
+                    </div>
+
+                    <div class="box1">
+                        <label for="lbname">Last Name</label>
+                        <input required type="text" id="lbname" name="lbname">
+                    </div>
+                    
+
+                    
+                    <div class="box1">
+                        <label for="baddress">Street address</label>
+                        <input type="text" id="bstreet" name="baddress" required>
+
+                    </div>
+                    <div class="box1">
+                        <label for="bpostal">PIN Code</label>
+                        <input required type="text" id="bpostal" name="bpostal" enterkeyhint="next">
+                    </div>
+                    <div class="box1">
+                        <label for="bcity">City</label>
+                        <input required type="text" id="bcity" name="bcity">
+                    </div>
+                    <div class="box1">
+                        <label for="bcountry">Country or region</label>
+                        <input id="bcountry" name="bcountry" required>
+                    </div>
+
+                </fieldset>
+                <div class="box1">
+                    <!-- <button class="btn" id="validationBtn" type="btnSubmit">Place Order<button> -->
+                    <input class="btn" type="submit" value="Place Your Order" name="Submit">
+                </div>
+
+
+            </form>
+        </div>
+
+        <script src="Billing.js"></script>
+
+</body>
+
+</html>
